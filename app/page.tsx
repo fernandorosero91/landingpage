@@ -150,7 +150,7 @@ export default function Home() {
           </div>
 
           {/* Bestsellers Section */}
-          <div>
+          <div className="mb-16">
             <h2 className="text-5xl font-bold text-[#8B1C1C] mb-12" style={{fontFamily: "'Playfair Display', serif"}}>Bestsellers from Across the Country</h2>
             <div className="grid grid-cols-4 gap-8 mb-10">
               {products.map((p, i) => (
@@ -180,111 +180,110 @@ export default function Home() {
                 </div>
               ))}
             </div>
-            <div className="text-center">
+            <div className="text-center mb-16">
               <button className="bg-[#8B1C1C] text-white px-16 py-4 rounded-full font-bold hover:bg-[#C0392B] text-base shadow-lg">VIEW ALL</button>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div className="max-w-7xl mx-auto px-12 py-8">
-        <div className="bg-white rounded-[40px] p-12">
-          <h2 className="text-5xl font-bold text-[#8B1C1C] mb-2" style={{fontFamily: "'Playfair Display', serif"}}>Our Promise</h2>
-          <p className="text-[#8B1C1C] mb-10">There&apos;s no secret spell - only honest the work!</p>
-          
-          <div className="grid grid-cols-2 gap-12">
-            {/* Left Column */}
-            <div>
-              <p className="text-[#C0392B] font-semibold text-lg mb-8">A glimpse rea secret spell - only hacial world!</p>
-              
-              {/* Icons Grid */}
-              <div className="grid grid-cols-4 gap-6 mb-10">
-                <div className="text-center">
-                  <div className="w-20 h-20 mx-auto mb-3 border-2 border-[#8B1C1C] rounded-full flex items-center justify-center">
-                    <svg className="w-10 h-10 text-[#8B1C1C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <p className="text-xs font-bold text-[#8B1C1C] leading-tight">ON TIME<br/>DELIVERY</p>
-                </div>
+          {/* Our Promise Section */}
+          <div>
+            <h2 className="text-5xl font-bold text-[#8B1C1C] mb-2" style={{fontFamily: "'Playfair Display', serif"}}>Our Promise</h2>
+            <p className="text-[#8B1C1C] mb-10">There&apos;s no secret spell - only honest the work!</p>
+            
+            <div className="grid grid-cols-2 gap-12">
+              {/* Left Column */}
+              <div>
+                <p className="text-[#C0392B] font-semibold text-lg mb-8">A glimpse rea secret spell - only hacial world!</p>
                 
-                <div className="text-center">
-                  <div className="w-20 h-20 mx-auto mb-3 border-2 border-[#8B1C1C] rounded-full flex items-center justify-center">
-                    <svg className="w-10 h-10 text-[#8B1C1C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
-                    </svg>
-                  </div>
-                  <p className="text-xs font-bold text-[#8B1C1C] leading-tight">5000+<br/>DESIGNS</p>
-                </div>
-                
-                <div className="text-center">
-                  <div className="w-20 h-20 mx-auto mb-3 border-2 border-[#8B1C1C] rounded-full flex items-center justify-center">
-                    <span className="text-3xl font-black text-[#8B1C1C]">2<span className="text-lg">-48</span></span>
-                  </div>
-                  <p className="text-xs font-bold text-[#8B1C1C] leading-tight">2-48<br/>ORDERS</p>
-                </div>
-                
-                <div className="text-center">
-                  <div className="w-20 h-20 mx-auto mb-3 border-2 border-[#8B1C1C] rounded-full flex items-center justify-center">
-                    <svg className="w-10 h-10 text-[#8B1C1C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <p className="text-xs font-bold text-[#8B1C1C] leading-tight">BAKED<br/>FRESH</p>
-                </div>
-              </div>
-
-              {/* Magical Ticket */}
-              <div className="bg-[#FAF3E0] rounded-3xl p-8 relative mb-10 shadow-sm">
-                <div className="absolute -left-6 top-1/2 -translate-y-1/2 w-24 h-24">
-                  <div className="w-full h-full bg-[#F4B400] rounded-2xl transform -rotate-12 flex items-center justify-center shadow-lg">
-                    <span className="text-4xl">🎫</span>
-                  </div>
-                </div>
-                <div className="ml-24">
-                  <h3 className="text-2xl font-black text-[#8B1C1C] mb-3" style={{fontFamily: "'Playfair Display', serif"}}>THE MAGICAL TICKET</h3>
-                  <p className="text-sm text-[#666666] mb-5 leading-relaxed">Add 3 reminders in your account.<br/>Win offers worth Rs. 750</p>
-                  <button className="bg-[#8B1C1C] text-white px-8 py-3 rounded-full text-sm font-bold hover:bg-[#C0392B] shadow-md">
-                    UNLOCK NOW
-                  </button>
-                </div>
-              </div>
-
-              {/* Social Media */}
-              <div className="flex items-center gap-4">
-                <div className="flex -space-x-3">
-                  {[1,2,3,4,5].map((i) => (
-                    <div key={i} className="w-12 h-12 rounded-full bg-gray-300 border-3 border-white overflow-hidden shadow-md">
-                      <Image src={`https://i.pravatar.cc/48?img=${i}`} alt="avatar" width={48} height={48} />
+                {/* Icons Grid */}
+                <div className="grid grid-cols-4 gap-6 mb-10">
+                  <div className="text-center">
+                    <div className="w-20 h-20 mx-auto mb-3 border-2 border-[#8B1C1C] rounded-full flex items-center justify-center">
+                      <svg className="w-10 h-10 text-[#8B1C1C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
                     </div>
-                  ))}
+                    <p className="text-xs font-bold text-[#8B1C1C] leading-tight">ON TIME<br/>DELIVERY</p>
+                  </div>
+                  
+                  <div className="text-center">
+                    <div className="w-20 h-20 mx-auto mb-3 border-2 border-[#8B1C1C] rounded-full flex items-center justify-center">
+                      <svg className="w-10 h-10 text-[#8B1C1C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                      </svg>
+                    </div>
+                    <p className="text-xs font-bold text-[#8B1C1C] leading-tight">5000+<br/>DESIGNS</p>
+                  </div>
+                  
+                  <div className="text-center">
+                    <div className="w-20 h-20 mx-auto mb-3 border-2 border-[#8B1C1C] rounded-full flex items-center justify-center">
+                      <span className="text-3xl font-black text-[#8B1C1C]">2<span className="text-lg">-48</span></span>
+                    </div>
+                    <p className="text-xs font-bold text-[#8B1C1C] leading-tight">2-48<br/>ORDERS</p>
+                  </div>
+                  
+                  <div className="text-center">
+                    <div className="w-20 h-20 mx-auto mb-3 border-2 border-[#8B1C1C] rounded-full flex items-center justify-center">
+                      <svg className="w-10 h-10 text-[#8B1C1C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                    </div>
+                    <p className="text-xs font-bold text-[#8B1C1C] leading-tight">BAKED<br/>FRESH</p>
+                  </div>
                 </div>
-                <p className="text-sm text-[#666666] font-medium">Follow us on social!</p>
-              </div>
-            </div>
 
-            {/* Right Column - Image Grid */}
-            <div className="grid grid-cols-2 gap-4">
-              <div className="rounded-3xl overflow-hidden h-56 shadow-md">
-                <Image src="https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=400&h=400&fit=crop" alt="cake" width={300} height={300} className="w-full h-full object-cover" />
-              </div>
-              <div className="rounded-3xl overflow-hidden h-56 shadow-md">
-                <Image src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=400&h=400&fit=crop" alt="baker" width={300} height={300} className="w-full h-full object-cover" />
-              </div>
-              <div className="rounded-3xl overflow-hidden h-56 bg-linear-to-br from-[#8B1C1C] to-[#6B1515] flex items-center justify-center text-white p-8 text-center shadow-md">
-                <div>
-                  <p className="font-black text-xl leading-tight" style={{fontFamily: "'Playfair Display', serif"}}>VISIT THE MOST<br/>TRUSTED CAKE<br/>SHOP IN INDIA</p>
+                {/* Magical Ticket */}
+                <div className="bg-[#FAF3E0] rounded-3xl p-8 relative mb-10 shadow-sm">
+                  <div className="absolute -left-6 top-1/2 -translate-y-1/2 w-24 h-24">
+                    <div className="w-full h-full bg-[#F4B400] rounded-2xl transform -rotate-12 flex items-center justify-center shadow-lg">
+                      <span className="text-4xl">🎫</span>
+                    </div>
+                  </div>
+                  <div className="ml-24">
+                    <h3 className="text-2xl font-black text-[#8B1C1C] mb-3" style={{fontFamily: "'Playfair Display', serif"}}>THE MAGICAL TICKET</h3>
+                    <p className="text-sm text-[#666666] mb-5 leading-relaxed">Add 3 reminders in your account.<br/>Win offers worth Rs. 750</p>
+                    <button className="bg-[#8B1C1C] text-white px-8 py-3 rounded-full text-sm font-bold hover:bg-[#C0392B] shadow-md">
+                      UNLOCK NOW
+                    </button>
+                  </div>
+                </div>
+
+                {/* Social Media */}
+                <div className="flex items-center gap-4">
+                  <div className="flex -space-x-3">
+                    {[1,2,3,4,5].map((i) => (
+                      <div key={i} className="w-12 h-12 rounded-full bg-gray-300 border-3 border-white overflow-hidden shadow-md">
+                        <Image src={`https://i.pravatar.cc/48?img=${i}`} alt="avatar" width={48} height={48} />
+                      </div>
+                    ))}
+                  </div>
+                  <p className="text-sm text-[#666666] font-medium">Follow us on social!</p>
                 </div>
               </div>
-              <div className="rounded-3xl overflow-hidden h-56 shadow-md">
-                <Image src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400&h=400&fit=crop" alt="team" width={300} height={300} className="w-full h-full object-cover" />
-              </div>
-              <div className="rounded-3xl overflow-hidden h-56 shadow-md">
-                <Image src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=400&h=400&fit=crop" alt="baking" width={300} height={300} className="w-full h-full object-cover" />
-              </div>
-              <div className="rounded-3xl overflow-hidden h-56 bg-linear-to-br from-[#C0392B] to-[#8B1C1C] flex items-center justify-center text-white p-8 text-center shadow-md">
-                <div>
-                  <p className="font-black text-lg" style={{fontFamily: "'Playfair Display', serif"}}>Chocolate<br/>Indulgence</p>
+
+              {/* Right Column - Image Grid */}
+              <div className="grid grid-cols-2 gap-4">
+                <div className="rounded-3xl overflow-hidden h-56 shadow-md">
+                  <Image src="https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=400&h=400&fit=crop" alt="cake" width={300} height={300} className="w-full h-full object-cover" />
+                </div>
+                <div className="rounded-3xl overflow-hidden h-56 shadow-md">
+                  <Image src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=400&h=400&fit=crop" alt="baker" width={300} height={300} className="w-full h-full object-cover" />
+                </div>
+                <div className="rounded-3xl overflow-hidden h-56 bg-linear-to-br from-[#8B1C1C] to-[#6B1515] flex items-center justify-center text-white p-8 text-center shadow-md">
+                  <div>
+                    <p className="font-black text-xl leading-tight" style={{fontFamily: "'Playfair Display', serif"}}>VISIT THE MOST<br/>TRUSTED CAKE<br/>SHOP IN INDIA</p>
+                  </div>
+                </div>
+                <div className="rounded-3xl overflow-hidden h-56 shadow-md">
+                  <Image src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400&h=400&fit=crop" alt="team" width={300} height={300} className="w-full h-full object-cover" />
+                </div>
+                <div className="rounded-3xl overflow-hidden h-56 shadow-md">
+                  <Image src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=400&h=400&fit=crop" alt="baking" width={300} height={300} className="w-full h-full object-cover" />
+                </div>
+                <div className="rounded-3xl overflow-hidden h-56 bg-linear-to-br from-[#C0392B] to-[#8B1C1C] flex items-center justify-center text-white p-8 text-center shadow-md">
+                  <div>
+                    <p className="font-black text-lg" style={{fontFamily: "'Playfair Display', serif"}}>Chocolate<br/>Indulgence</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -292,14 +291,16 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-12 py-8">
+      {/* FSSAI Banner */}
+      <div className="px-20 py-8">
         <div className="bg-[#8B1C1C] rounded-3xl p-8 text-center">
           <h2 className="text-2xl font-bold text-white" style={{fontFamily: "'Playfair Display', serif"}}>Dakingo – Your Trusted FSSAI Certified Online Bakery for Every Celebration</h2>
         </div>
       </div>
 
+      {/* Footer */}
       <footer className="bg-white mt-12">
-        <div className="max-w-7xl mx-auto px-12 py-12">
+        <div className="px-20 py-12">
           <div className="grid grid-cols-5 gap-8 mb-8">
             <div>
               <h3 className="text-2xl font-bold text-[#8B1C1C] mb-4" style={{fontFamily: "'Playfair Display', serif"}}>Dakingo</h3>
