@@ -115,42 +115,34 @@ export default function Home() {
               </div>
             </div>
             <div className="flex gap-8">
-              {/* CLASSIC - Cake icon */}
+              {/* CLASSIC */}
               <div className="bg-white border-2 border-gray-200 rounded-3xl p-10 w-48 text-center shadow-sm hover:shadow-md transition-shadow">
                 <div className="w-24 h-24 mx-auto mb-5 flex items-center justify-center">
-                  <svg className="w-20 h-20 text-[#8B1C1C]" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 6c1.11 0 2-.9 2-2 0-.38-.1-.73-.29-1.03L12 0l-1.71 2.97c-.19.3-.29.65-.29 1.03 0 1.1.9 2 2 2zm4.6 9.99l-1.07-1.07-1.08 1.07c-1.3 1.3-3.58 1.31-4.89 0l-1.07-1.07-1.09 1.07C6.75 16.64 5.88 17 4.96 17c-.73 0-1.4-.23-1.96-.61V21c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-4.61c-.56.38-1.23.61-1.96.61-.92 0-1.79-.36-2.44-1.01zM18 9h-5V7h-2v2H6c-1.66 0-3 1.34-3 3v1.54c0 1.08.88 1.96 1.96 1.96.52 0 1.02-.2 1.38-.57l2.14-2.13 2.13 2.13c.74.74 2.03.74 2.77 0l2.14-2.13 2.13 2.13c.37.37.86.57 1.38.57 1.08 0 1.96-.88 1.96-1.96V12C21 10.34 19.66 9 18 9z"/>
-                  </svg>
+                  <Image src="/classic.png" alt="Classic" width={80} height={80} className="object-contain" />
                 </div>
                 <p className="text-[#8B1C1C] font-bold text-base">CLASSIC</p>
               </div>
               
-              {/* DOURMET - Calendar/Box icon */}
+              {/* DOURMET */}
               <div className="bg-white border-2 border-gray-200 rounded-3xl p-10 w-48 text-center shadow-sm hover:shadow-md transition-shadow">
                 <div className="w-24 h-24 mx-auto mb-5 flex items-center justify-center">
-                  <svg className="w-20 h-20 text-[#8B1C1C]" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
-                  </svg>
+                  <Image src="/dourmet.png" alt="Dourmet" width={80} height={80} className="object-contain" />
                 </div>
                 <p className="text-[#8B1C1C] font-bold text-base">DOURMET</p>
               </div>
               
-              {/* DESSERTS - Cupcake/Dessert icon */}
+              {/* DESSERTS */}
               <div className="bg-white border-2 border-gray-200 rounded-3xl p-10 w-48 text-center shadow-sm hover:shadow-md transition-shadow">
                 <div className="w-24 h-24 mx-auto mb-5 flex items-center justify-center">
-                  <svg className="w-20 h-20 text-[#8B1C1C]" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2C9.24 2 7 4.24 7 7c0 1.77.94 3.31 2.34 4.16L8 22h8l-1.34-10.84C15.94 10.31 17 8.77 17 7c0-2.76-2.24-5-5-5zm0 3c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1z"/>
-                  </svg>
+                  <Image src="/desserts.png" alt="Desserts" width={80} height={80} className="object-contain" />
                 </div>
                 <p className="text-[#8B1C1C] font-bold text-base">DESSERTS</p>
               </div>
               
-              {/* COOKIES - List/Receipt icon */}
+              {/* COOKIES */}
               <div className="bg-white border-2 border-gray-200 rounded-3xl p-10 w-48 text-center shadow-sm hover:shadow-md transition-shadow">
                 <div className="w-24 h-24 mx-auto mb-5 flex items-center justify-center">
-                  <svg className="w-20 h-20 text-[#8B1C1C]" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
-                  </svg>
+                  <Image src="/cookies.png" alt="Cookies" width={80} height={80} className="object-contain" />
                 </div>
                 <p className="text-[#8B1C1C] font-bold text-base">COOKIES</p>
               </div>
