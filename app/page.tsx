@@ -191,56 +191,71 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-12">
               {/* Left Column */}
               <div>
-                <p className="text-[#C0392B] font-semibold text-lg mb-8">A glimpse rea secret spell - only hacial world!</p>
+                <p className="text-[#C0392B] font-semibold text-lg mb-8">A glinpes roo secret spell - only hocial world!</p>
                 
                 {/* Icons Grid */}
-                <div className="grid grid-cols-4 gap-6 mb-10">
-                  <div className="text-center">
-                    <div className="w-20 h-20 mx-auto mb-3 border-2 border-[#8B1C1C] rounded-full flex items-center justify-center">
-                      <svg className="w-10 h-10 text-[#8B1C1C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
+                <div className="bg-[#FFF5F5] rounded-3xl p-8 mb-10">
+                  <div className="grid grid-cols-4 gap-6">
+                    <div className="text-center">
+                      <div className="w-24 h-24 mx-auto mb-3 border-3 border-[#8B1C1C] rounded-full flex items-center justify-center bg-white">
+                        <svg className="w-12 h-12 text-[#8B1C1C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                      </div>
+                      <p className="text-sm font-bold text-[#8B1C1C] leading-tight">ON TIME<br/>DELIVERY</p>
                     </div>
-                    <p className="text-xs font-bold text-[#8B1C1C] leading-tight">ON TIME<br/>DELIVERY</p>
-                  </div>
-                  
-                  <div className="text-center">
-                    <div className="w-20 h-20 mx-auto mb-3 border-2 border-[#8B1C1C] rounded-full flex items-center justify-center">
-                      <svg className="w-10 h-10 text-[#8B1C1C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
-                      </svg>
+                    
+                    <div className="text-center">
+                      <div className="w-24 h-24 mx-auto mb-3 border-3 border-[#8B1C1C] rounded-full flex items-center justify-center bg-white">
+                        <svg className="w-12 h-12 text-[#8B1C1C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                        </svg>
+                      </div>
+                      <p className="text-sm font-bold text-[#8B1C1C] leading-tight">5I00+<br/>DESIGNS</p>
                     </div>
-                    <p className="text-xs font-bold text-[#8B1C1C] leading-tight">5000+<br/>DESIGNS</p>
-                  </div>
-                  
-                  <div className="text-center">
-                    <div className="w-20 h-20 mx-auto mb-3 border-2 border-[#8B1C1C] rounded-full flex items-center justify-center">
-                      <span className="text-3xl font-black text-[#8B1C1C]">2<span className="text-lg">-48</span></span>
+                    
+                    <div className="text-center">
+                      <div className="w-24 h-24 mx-auto mb-3 border-3 border-[#8B1C1C] rounded-full flex items-center justify-center bg-white">
+                        <span className="text-4xl font-black text-[#8B1C1C]">2<span className="text-xl align-super">CR+</span></span>
+                      </div>
+                      <p className="text-sm font-bold text-[#8B1C1C] leading-tight">2 CR+<br/>ORDERS</p>
                     </div>
-                    <p className="text-xs font-bold text-[#8B1C1C] leading-tight">2-48<br/>ORDERS</p>
-                  </div>
-                  
-                  <div className="text-center">
-                    <div className="w-20 h-20 mx-auto mb-3 border-2 border-[#8B1C1C] rounded-full flex items-center justify-center">
-                      <svg className="w-10 h-10 text-[#8B1C1C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
+                    
+                    <div className="text-center">
+                      <div className="w-24 h-24 mx-auto mb-3 border-3 border-[#8B1C1C] rounded-full flex items-center justify-center bg-white">
+                        <svg className="w-12 h-12 text-[#8B1C1C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                      </div>
+                      <p className="text-sm font-bold text-[#8B1C1C] leading-tight">BAKED<br/>FRESH</p>
                     </div>
-                    <p className="text-xs font-bold text-[#8B1C1C] leading-tight">BAKED<br/>FRESH</p>
                   </div>
                 </div>
 
                 {/* Magical Ticket */}
-                <div className="bg-[#FAF3E0] rounded-3xl p-8 relative mb-10 shadow-sm">
-                  <div className="absolute -left-6 top-1/2 -translate-y-1/2 w-24 h-24">
-                    <div className="w-full h-full bg-[#F4B400] rounded-2xl transform -rotate-12 flex items-center justify-center shadow-lg">
-                      <span className="text-4xl">🎫</span>
+                <div className="bg-[#FFF5F5] rounded-3xl p-10 relative mb-10 shadow-sm">
+                  <div className="absolute -left-8 top-1/2 -translate-y-1/2 w-32 h-32">
+                    <div className="relative">
+                      {/* Confetti decorations */}
+                      <div className="absolute -top-4 -left-2 w-3 h-8 bg-pink-400 rounded-full transform rotate-45"></div>
+                      <div className="absolute -top-6 left-4 w-3 h-8 bg-yellow-400 rounded-full transform -rotate-12"></div>
+                      <div className="absolute -top-2 left-10 w-3 h-8 bg-cyan-400 rounded-full transform rotate-45"></div>
+                      <div className="absolute top-4 -left-4 w-2 h-2 bg-purple-400 rounded-full"></div>
+                      <div className="absolute top-8 left-12 w-2 h-2 bg-yellow-300 rounded-full"></div>
+                      <div className="absolute bottom-4 -left-2 w-2 h-2 bg-pink-300 rounded-full"></div>
+                      
+                      {/* Ticket */}
+                      <div className="w-28 h-20 bg-gradient-to-br from-[#F4B400] to-[#E6A800] rounded-lg transform -rotate-12 flex flex-col items-center justify-center shadow-xl border-2 border-dashed border-[#D4A000] relative">
+                        <div className="absolute top-1 left-1 right-1 bottom-1 border border-dashed border-[#D4A000] rounded-md"></div>
+                        <span className="text-xs font-black text-[#8B1C1C] tracking-wider">MAGICAL</span>
+                        <span className="text-xs font-black text-[#8B1C1C] tracking-wider">TICKET</span>
+                      </div>
                     </div>
                   </div>
-                  <div className="ml-24">
-                    <h3 className="text-2xl font-black text-[#8B1C1C] mb-3" style={{fontFamily: "'Playfair Display', serif"}}>THE MAGICAL TICKET</h3>
-                    <p className="text-sm text-[#666666] mb-5 leading-relaxed">Add 3 reminders in your account.<br/>Win offers worth Rs. 750</p>
-                    <button className="bg-[#8B1C1C] text-white px-8 py-3 rounded-full text-sm font-bold hover:bg-[#C0392B] shadow-md">
+                  <div className="ml-28">
+                    <h3 className="text-3xl font-black text-[#8B1C1C] mb-3" style={{fontFamily: "'Playfair Display', serif"}}>THE MAGICAL TICKET</h3>
+                    <p className="text-base text-[#C0392B] mb-5 leading-relaxed">Add 3 reminders in your account.<br/>Win offers worth Rs. 750</p>
+                    <button className="bg-[#8B1C1C] text-white px-12 py-4 rounded-full text-base font-bold hover:bg-[#C0392B] shadow-lg">
                       UNLOCK NOW
                     </button>
                   </div>
