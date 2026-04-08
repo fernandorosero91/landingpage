@@ -288,38 +288,69 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      {/* FSSAI Banner */}
-      <div className="px-20 py-8">
-        <div className="bg-[#8B1C1C] rounded-3xl p-8 text-center">
-          <h2 className="text-2xl font-bold text-white" style={{fontFamily: "'Playfair Display', serif"}}>Dakingo – Your Trusted FSSAI Certified Online Bakery for Every Celebration</h2>
-        </div>
-      </div>
-
-      {/* Footer */}
-      <footer className="bg-white mt-12">
-        <div className="px-20 py-12">
-          <div className="grid grid-cols-5 gap-8 mb-8">
-            <div>
-              <h3 className="text-2xl font-bold text-[#8B1C1C] mb-4" style={{fontFamily: "'Playfair Display', serif"}}>Dakingo</h3>
-              <ul className="space-y-2 text-sm text-[#666666]">
-                <li><a href="#">Our Story</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </ul>
+          {/* FSSAI Banner */}
+          <div className="mt-16 mb-12">
+            <div className="bg-[#8B1C1C] rounded-3xl p-8 text-center">
+              <h2 className="text-2xl font-bold text-white" style={{fontFamily: "'Playfair Display', serif"}}>Dakingo – Your Trusted FSSAI Certified Online Bakery for Every Celebration</h2>
             </div>
-            <div><h4 className="font-semibold text-[#222222] mb-4">KNOW US</h4></div>
-            <div><h4 className="font-semibold text-[#222222] mb-4">NEED HELP</h4></div>
-            <div><h4 className="font-semibold text-[#222222] mb-4">MORE INFO</h4></div>
-            <div><h4 className="font-semibold text-[#222222] mb-4">MORE INFO</h4></div>
           </div>
-          <div className="border-t pt-8 flex items-center justify-between">
-            <input type="email" placeholder="Enter Email Address" className="w-full max-w-md px-4 py-3 border border-gray-300 rounded-full" />
-            <button className="bg-[#8B1C1C] text-white px-8 py-3 rounded-full font-medium ml-4">SUBSCRIBE</button>
+
+          {/* Footer Content */}
+          <div>
+            <div className="grid grid-cols-5 gap-8 mb-8">
+              <div>
+                <h3 className="text-2xl font-bold text-[#8B1C1C] mb-4" style={{fontFamily: "'Playfair Display', serif"}}>Dakingo</h3>
+                <ul className="space-y-2 text-sm text-[#666666]">
+                  <li><a href="#">Our Story</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Locate Store</a></li>
+                  <li><a href="#">Resale</a></li>
+                  <li><a href="#">Careers</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold text-[#222222] mb-4">KNOW US</h4>
+                <ul className="space-y-2 text-sm text-[#666666]">
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold text-[#222222] mb-4">NEED HELP</h4>
+                <ul className="space-y-2 text-sm text-[#666666]">
+                  <li><a href="#">Cancellation And Refund</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold text-[#222222] mb-4">MORE INFO</h4>
+                <ul className="space-y-2 text-sm text-[#666666]">
+                  <li><a href="#">Terms And Policy</a></li>
+                  <li><a href="#">Customers Enclosure</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold text-[#222222] mb-4">MORE INFO</h4>
+                <ul className="space-y-2 text-sm text-[#666666]">
+                  <li><a href="#">Coupons & Offers</a></li>
+                  <li><a href="#">Download App</a></li>
+                </ul>
+              </div>
+            </div>
+            <div className="border-t pt-8 flex items-center justify-between">
+              <input type="email" placeholder="Enter Email Address" className="w-full max-w-md px-6 py-3 border border-gray-300 rounded-full" />
+              <button className="bg-[#8B1C1C] text-white px-10 py-3 rounded-full font-bold ml-4 hover:bg-[#C0392B]">SUBSCRIBE</button>
+              <div className="flex items-center gap-2 text-sm text-[#666666]">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>Hey, need any help?</span>
+              </div>
+            </div>
           </div>
         </div>
-      </footer>
+      </div>
     </div>
   );
 }
