@@ -87,7 +87,7 @@ export default function Home() {
       </div>
 
       {/* Menu + Bestsellers Section - Overlapping white box */}
-      <div className="max-w-7xl mx-auto px-3">
+      <div className="px-20">
         <div className="relative -mt-24 bg-white rounded-[40px] px-16 py-14 shadow-xl">
           <div className="flex items-start justify-between mb-12">
             <div>
